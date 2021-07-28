@@ -1,5 +1,8 @@
 # **IMPORTANT NOTE**
 
+한국 휴이 불완전한거 수정 
+- 식목이 같은 경우느 빨간날이지만 주식 장으 개장한다. quantopian trading calendars에서는 이 날으 휴장으로 처리해서 문제가 생기므로 한국 주식에 맞ㄱ trading calendars를 수정했다.
+
 This package is currently unmaintained as the sponsor, quantopian, is going through corporate changes. As such there is a fork of this project that will receive more active maintenance, https://github.com/gerrymanoim/trading_calendars, and the actively developed and maintained alternative implimentation here: https://github.com/rsheftel/pandas_market_calendars . The process to merge these implementations will continue in those two respective repos.
 
 # trading_calendars
