@@ -18,9 +18,9 @@ from setuptools import (
     setup,
 )
 
-import versioneer
+# import versioneer
 
-DISTNAME = "trading_calendars"
+DISTNAME = "trading_calendars_korea"
 DESCRIPTION = """trading_calendars is a Python library with \
 securities exchange calendars used by Quantopian's Zipline."""
 
@@ -66,8 +66,8 @@ if __name__ == '__main__':
                 'tcal = trading_calendars.tcal:main',
             ],
         },
-        cmdclass=versioneer.get_cmdclass(),
-        version=versioneer.get_version(),
+        # cmdclass=versioneer.get_cmdclass(),
+        version='0.0.1',
         author=AUTHOR,
         author_email=AUTHOR_EMAIL,
         description=DESCRIPTION,
